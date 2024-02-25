@@ -1,7 +1,7 @@
 # Trabalhando com Machine Learning na Prática no Azure ML
 
 ## Objetivo
-Modelo para estimar o número de bicicletas alugadas em um dia especificado, considerando estação do ano e condições climáticas.
+Criaçãoi de um modelo (regressão) para estimar o número de bicicletas alugadas em um dia especificado, considerando estação do ano e condições climáticas.
 
 ### ETAPA 1: Configuração do Azure Machine Learning
 - Acesso a https://portal.azure.com com credenciais Microsoft.
