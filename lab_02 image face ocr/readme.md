@@ -4,6 +4,7 @@
 Reconhecimento Facial e transformação de imagens em Dados no Azure ML
 
 
+
 ### ETAPA 1: Criação do Azure AI Services
 - Acesso a https://portal.azure.com com credenciais Microsoft.
 - Create a resource
@@ -11,6 +12,7 @@ Reconhecimento Facial e transformação de imagens em Dados no Azure ML
 - Azure IA service: Create
 
 ![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/90eced3abf19e76c2f675bcb63a0cfda6f7a3ba6/lab_02%20image%20face%20ocr/misc/01.jpg)
+
 
 
 ### ETAPA 2: Configuração do Azure AI Services
@@ -49,7 +51,7 @@ Reconhecimento Facial e transformação de imagens em Dados no Azure ML
 ![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/e2963916dab99ac61058dea43b3181c0bdca56a0/lab_02%20image%20face%20ocr/misc/03_2.jpg)
 
 - Entre na aba "Face"
-- Selecione Detect faces in an image
+- Selecione "Detect faces in an image"
 
 ![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/e2963916dab99ac61058dea43b3181c0bdca56a0/lab_02%20image%20face%20ocr/misc/03_3.jpg)
 
@@ -62,5 +64,15 @@ Reconhecimento Facial e transformação de imagens em Dados no Azure ML
 ![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/8674ed26296d9578602ae5c4e95b11271d5cb9d7/lab_02%20image%20face%20ocr/misc/03_4.jpg)
 
 
+
 ### ETAPA 4: Configuração Vision Studio para TEXTO
 
+- O processo é bem parecido para identificar texto.
+- Volte para a página inicial
+
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/8c93dc9e821259e8ed11e8358f42d6a1447b1aa4/lab_02%20image%20face%20ocr/misc/04.jpg)
+
+- Entre na aba "Optical Character Recogniton"
+- Selecione "Extract text from images"
+
+  ![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/8c93dc9e821259e8ed11e8358f42d6a1447b1aa4/lab_02%20image%20face%20ocr/misc/04_1.jpg)
