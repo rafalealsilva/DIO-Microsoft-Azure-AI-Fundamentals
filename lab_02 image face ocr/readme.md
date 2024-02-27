@@ -3,6 +3,7 @@
 ## Objetivo
 Reconhecimento Facial e transformação de imagens em Dados no Azure ML
 
+
 ### ETAPA 1: Criação do Azure AI Services
 - Acesso a https://portal.azure.com com credenciais Microsoft.
 - Create a resource
@@ -34,7 +35,7 @@ Reconhecimento Facial e transformação de imagens em Dados no Azure ML
 ![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/72009eb0470b17d84a8449bd0aad41283a3340d0/lab_02%20image%20face%20ocr/misc/02_3.jpg)
 
 
-### ETAPA 3: Configuração Vision Studio
+### ETAPA 3: Configuração Vision Studio para IMAGENS
 
 - Acessar https://portal.vision.cognitive.azure.com/ com suas credenciais
 - Clicar em "View All Resources"
@@ -51,4 +52,15 @@ Reconhecimento Facial e transformação de imagens em Dados no Azure ML
 - Selecione Detect faces in an image
 
 ![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/e2963916dab99ac61058dea43b3181c0bdca56a0/lab_02%20image%20face%20ocr/misc/03_3.jpg)
+
+- Marque a caixa abaixo do texto "Try it out"
+- Carregue suas imagens para testar - a aplicação exemplo detecta rosto, e se há uso de máscara ou não
+
+- Segue exemplo abaixo. Repare a deteção difícil em "Face #8" (rosto de lado), corretamente identificado como "sem máscara"; e em "Face #13", marcado (creio que) incorretamente como "sem máscara".
+- Quem tiver mais exemplos, bacana compartilhar.
+
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/8674ed26296d9578602ae5c4e95b11271d5cb9d7/lab_02%20image%20face%20ocr/misc/03_4.jpg)
+
+
+### ETAPA 4: Configuração Vision Studio para TEXTO
 
