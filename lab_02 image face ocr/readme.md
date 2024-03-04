@@ -1,4 +1,4 @@
-# Trabalhando com Machine Learning na Prática no Azure ML
+# Machine Learning na Prática no Azure ML
 
 ## Objetivo
 Reconhecimento Facial e transformação de imagens em Dados no Azure ML
