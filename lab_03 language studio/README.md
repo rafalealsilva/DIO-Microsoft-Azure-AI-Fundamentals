@@ -9,32 +9,36 @@ Reconhecimento Facial e transformação de imagens em Dados no Azure ML
 - Acesso a https://portal.azure.com com credenciais Microsoft.
 - Create a resource
 - Categories: AI + Machine Learning
-- Azure IA service: Create
+- Language Service: Create
 
-![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/90eced3abf19e76c2f675bcb63a0cfda6f7a3ba6/lab_02%20image%20face%20ocr/misc/01.jpg)
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/afc253b931e29f6930055924810b484ccab6cb4c/lab_03%20language%20studio/misc/Screenshot_1.jpg)
+
+- Clique no botão azul "Continue to create your resource"
 
 
-
-### ETAPA 2: Configuração do Azure AI Services
+### ETAPA 2: Create Language
 
 - Resource group: crie um novo ou selecione um resource criado previamente
 - Region: East US (de acordo com o vídeo, custo de serviço mais barato que no Brasil)
-- Name
-- Pricing tier: Standard S0
-- Marca a caixa: "By checking this box I acknowledge that I have read and understood all the terms below"
+- Name - sua preferência
+- Pricing tier: Free F0
+- Marca a caixa: "By checking this box I certify that I have reviewed and acknowledge the terms in the Responsible AI Notice"
 - Review + create
 
-![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/c0946fc8030935d8ff07326c612975c0eac59334/lab_02%20image%20face%20ocr/misc/02.jpg)
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/2cc9d080db6eeddd7fdcd1b28ae427ab0d215f87/lab_03%20language%20studio/misc/Screenshot_2.jpg)
 
 - Create
+- Aguarde um instante
 
-![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/f0370e8c32c14dda6f2d4fe7378c734c424149ee/lab_02%20image%20face%20ocr/misc/02_1.jpg)
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/2cc9d080db6eeddd7fdcd1b28ae427ab0d215f87/lab_03%20language%20studio/misc/Screenshot_3.jpg)
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/2cc9d080db6eeddd7fdcd1b28ae427ab0d215f87/lab_03%20language%20studio/misc/Screenshot_4.jpg)
 
-- "Go to resource"
+- Após finalizar "Deployment is in progress", pressione "Go to resource group"
+
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/2cc9d080db6eeddd7fdcd1b28ae427ab0d215f87/lab_03%20language%20studio/misc/Screenshot_5.jpg)
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/2cc9d080db6eeddd7fdcd1b28ae427ab0d215f87/lab_03%20language%20studio/misc/Screenshot_6.jpg)
+
 - Checar "Status: Active"
-
-![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/72009eb0470b17d84a8449bd0aad41283a3340d0/lab_02%20image%20face%20ocr/misc/02_2.jpg)
-![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/72009eb0470b17d84a8449bd0aad41283a3340d0/lab_02%20image%20face%20ocr/misc/02_3.jpg)
 
 
 ### ETAPA 3: Configuração Vision Studio para IMAGENS
