@@ -1,0 +1,153 @@
+We were looking forward to staying here but I must say it failed to live up to the expectations.
+
+The service was not as good or as friendly as what we experienced at the OOO hotels.
+
+The corridor outside our room was home to many pigeons who soiled the floor and the furniture, none of which was cleaned whilst we were there.
+
+The indoor pool also had pigeons flying around and a tatty blue carpet surrounded the pool again with pigeon droppings.
+
+When we left we were not offered any help with our cases, lugging them down the steps, luckily we’re young enough to manage but disappointing all the same.
+
+After staying at two OOO hotels I fail to see how this hotel has been awarded so many accolades.
+
+
+{
+    "documents": [
+        {
+            "id": "id__7187",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0,
+                "neutral": 0.02,
+                "negative": 0.97
+            },
+            "sentences": [
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.99
+                    },
+                    "offset": 0,
+                    "length": 97,
+                    "text": "We were looking forward to staying here but I must say it failed to live up to the expectations.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.99
+                    },
+                    "offset": 97,
+                    "length": 85,
+                    "text": "The service was not as good or as friendly as what we experienced at the OOO hotels.\n",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 102,
+                            "length": 7,
+                            "text": "service",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/0"
+                                },
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 121,
+                            "length": 4,
+                            "text": "good",
+                            "isNegated": true
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 132,
+                            "length": 8,
+                            "text": "friendly",
+                            "isNegated": true
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.98
+                    },
+                    "offset": 182,
+                    "length": 143,
+                    "text": "The corridor outside our room was home to many pigeons who soiled the floor and the furniture, none of which was cleaned whilst we were there.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.09,
+                        "negative": 0.9
+                    },
+                    "offset": 325,
+                    "length": 120,
+                    "text": "The indoor pool also had pigeons flying around and a tatty blue carpet surrounded the pool again with pigeon droppings.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.99
+                    },
+                    "offset": 445,
+                    "length": 156,
+                    "text": "When we left we were not offered any help with our cases, lugging them down the steps, luckily we’re young enough to manage but disappointing all the same.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.98
+                    },
+                    "offset": 601,
+                    "length": 96,
+                    "text": "After staying at two OOO hotels I fail to see how this hotel has been awarded so many accolades.",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}

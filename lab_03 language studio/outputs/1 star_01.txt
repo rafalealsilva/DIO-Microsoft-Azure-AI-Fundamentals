@@ -1,0 +1,63 @@
+I am a loyal TTT patron, and Epicure member. Today my trust and affection for TTT was severely diminished, as I was turned away from the main gates of the RRR Palace in Jaipur, where I had dropped by for dinner.
+
+Reeks of insane classism and elitist attitude, that goes against the very founding story of the TTT hotels, a hotel, that was meant for every Indian.
+
+
+
+{
+    "documents": [
+        {
+            "id": "id__7535",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.01,
+                "neutral": 0.08,
+                "negative": 0.91
+            },
+            "sentences": [
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.37,
+                        "neutral": 0.62,
+                        "negative": 0.02
+                    },
+                    "offset": 0,
+                    "length": 45,
+                    "text": "I am a loyal TTT patron, and Epicure member. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.08,
+                        "negative": 0.92
+                    },
+                    "offset": 45,
+                    "length": 167,
+                    "text": "Today my trust and affection for TTT was severely diminished, as I was turned away from the main gates of the RRR Palace in Jaipur, where I had dropped by for dinner.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.08,
+                        "negative": 0.91
+                    },
+                    "offset": 212,
+                    "length": 149,
+                    "text": "Reeks of insane classism and elitist attitude, that goes against the very founding story of the TTT hotels, a hotel, that was meant for every Indian.",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}

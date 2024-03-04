@@ -1,0 +1,256 @@
+I know it is probably just me, but this dining experience was not one of my favourites. Yes, the hotel and grounds are amazing, the dining room is lavish and everything smacks of money but, for me, it lacked any real atmosphere or charm.
+It was packed out the night we went so was very noisy and many children running about. The staff had no time for any personal attention and the whole place had a vibe of 'look at how posh we are aren't you grateful to be here' as if they just were there to show off rather than serve you. The food was also too posh for my tastes (my problem, I know) but it was a huge plates and tiny amount of food type of dinner which really annoys me!
+Glad I got to experience it but wouldn't recommend.
+
+
+{
+    "documents": [
+        {
+            "id": "id__5975",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.12,
+                "neutral": 0.03,
+                "negative": 0.85
+            },
+            "sentences": [
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.02,
+                        "negative": 0.98
+                    },
+                    "offset": 0,
+                    "length": 88,
+                    "text": "I know it is probably just me, but this dining experience was not one of my favourites. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.66,
+                        "neutral": 0.06,
+                        "negative": 0.28
+                    },
+                    "offset": 88,
+                    "length": 150,
+                    "text": "Yes, the hotel and grounds are amazing, the dining room is lavish and everything smacks of money but, for me, it lacked any real atmosphere or charm. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 97,
+                            "length": 5,
+                            "text": "hotel",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 107,
+                            "length": 7,
+                            "text": "grounds",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.75,
+                                "negative": 0.25
+                            },
+                            "offset": 132,
+                            "length": 11,
+                            "text": "dining room",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 119,
+                            "length": 7,
+                            "text": "amazing",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.75,
+                                "negative": 0.25
+                            },
+                            "offset": 147,
+                            "length": 6,
+                            "text": "lavish",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.99
+                    },
+                    "offset": 238,
+                    "length": 87,
+                    "text": "It was packed out the night we went so was very noisy and many children running about. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.06,
+                        "negative": 0.93
+                    },
+                    "offset": 325,
+                    "length": 202,
+                    "text": "The staff had no time for any personal attention and the whole place had a vibe of 'look at how posh we are aren't you grateful to be here' as if they just were there to show off rather than serve you. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.99
+                    },
+                    "offset": 527,
+                    "length": 150,
+                    "text": "The food was also too posh for my tastes (my problem, I know) but it was a huge plates and tiny amount of food type of dinner which really annoys me! ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 531,
+                            "length": 4,
+                            "text": "food",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/4/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.37,
+                                "negative": 0.63
+                            },
+                            "offset": 607,
+                            "length": 6,
+                            "text": "plates",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/4/assessments/1"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 646,
+                            "length": 6,
+                            "text": "dinner",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/4/assessments/2"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 549,
+                            "length": 4,
+                            "text": "posh",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.37,
+                                "negative": 0.63
+                            },
+                            "offset": 602,
+                            "length": 4,
+                            "text": "huge",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 666,
+                            "length": 6,
+                            "text": "annoys",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.03,
+                        "neutral": 0.02,
+                        "negative": 0.95
+                    },
+                    "offset": 677,
+                    "length": 51,
+                    "text": "Glad I got to experience it but wouldn't recommend.",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}

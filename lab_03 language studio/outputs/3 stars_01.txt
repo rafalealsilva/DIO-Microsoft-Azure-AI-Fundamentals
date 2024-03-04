@@ -1,0 +1,228 @@
+Went for high tea. Food was good, tea was pretty good. The people are really nice, but the service is super slow. Sat for an hour and a half, and they maybe came twice. Not complaining, but the staff could be slightly more attentive, especially for the price.
+
+
+
+{
+    "documents": [
+        {
+            "id": "id__6164",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.54,
+                "neutral": 0.06,
+                "negative": 0.41
+            },
+            "sentences": [
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.1,
+                        "neutral": 0.7,
+                        "negative": 0.21
+                    },
+                    "offset": 0,
+                    "length": 19,
+                    "text": "Went for high tea. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.99,
+                        "neutral": 0.01,
+                        "negative": 0
+                    },
+                    "offset": 19,
+                    "length": 36,
+                    "text": "Food was good, tea was pretty good. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 19,
+                            "length": 4,
+                            "text": "Food",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 34,
+                            "length": 3,
+                            "text": "tea",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 28,
+                            "length": 4,
+                            "text": "good",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 49,
+                            "length": 4,
+                            "text": "good",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.04,
+                        "negative": 0.94
+                    },
+                    "offset": 55,
+                    "length": 59,
+                    "text": "The people are really nice, but the service is super slow. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 59,
+                            "length": 6,
+                            "text": "people",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/2/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 91,
+                            "length": 7,
+                            "text": "service",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/2/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 77,
+                            "length": 4,
+                            "text": "nice",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 108,
+                            "length": 4,
+                            "text": "slow",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.96,
+                        "negative": 0.03
+                    },
+                    "offset": 114,
+                    "length": 55,
+                    "text": "Sat for an hour and a half, and they maybe came twice. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.6,
+                        "neutral": 0.12,
+                        "negative": 0.27
+                    },
+                    "offset": 169,
+                    "length": 90,
+                    "text": "Not complaining, but the staff could be slightly more attentive, especially for the price.",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 194,
+                            "length": 5,
+                            "text": "staff",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/4/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 173,
+                            "length": 11,
+                            "text": "complaining",
+                            "isNegated": true
+                        }
+                    ]
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}

@@ -1,0 +1,329 @@
+Gangggg these hotel reviews are cap. Like gang it aint even that good. The price is cheap for no reason. Like man we got poor people walkin in my poor hobo homies could even afford it. Chat, some people were so poor they only got two lambos. And I try to to make a tik toc and they had the audacity to say " serrrrr don't make us escort you off the premise" like dawg wth did I ask. The only prob here if your attitude. Not my fault you have a bad job minimum wage worker pffft. If you stay here your the opp. Most of you need to start mewing. Then I tried to rizz up a lady and they gave me the glob darn boot. Like hotel you aint even the fart. Im the OP trust fam Im goated. Its giving poor their in their collapse era. Yall need to become more alpha im a sigma male trust me. At least the food was bussin' like top notch good stuff. Also the rooms were mid.
+
+
+{
+    "documents": [
+        {
+            "id": "id__6737",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.16,
+                "neutral": 0.22,
+                "negative": 0.62
+            },
+            "sentences": [
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.15,
+                        "neutral": 0.35,
+                        "negative": 0.5
+                    },
+                    "offset": 0,
+                    "length": 37,
+                    "text": "Gangggg these hotel reviews are cap. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.09,
+                        "neutral": 0.23,
+                        "negative": 0.68
+                    },
+                    "offset": 37,
+                    "length": 34,
+                    "text": "Like gang it aint even that good. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 42,
+                            "length": 4,
+                            "text": "gang",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 65,
+                            "length": 4,
+                            "text": "good",
+                            "isNegated": true
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.14,
+                        "negative": 0.85
+                    },
+                    "offset": 71,
+                    "length": 34,
+                    "text": "The price is cheap for no reason. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.87,
+                                "negative": 0.13
+                            },
+                            "offset": 75,
+                            "length": 5,
+                            "text": "price",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/2/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.87,
+                                "negative": 0.13
+                            },
+                            "offset": 84,
+                            "length": 5,
+                            "text": "cheap",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.04,
+                        "neutral": 0.24,
+                        "negative": 0.72
+                    },
+                    "offset": 105,
+                    "length": 80,
+                    "text": "Like man we got poor people walkin in my poor hobo homies could even afford it. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.03,
+                        "neutral": 0.19,
+                        "negative": 0.78
+                    },
+                    "offset": 185,
+                    "length": 57,
+                    "text": "Chat, some people were so poor they only got two lambos. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.12,
+                        "neutral": 0.68,
+                        "negative": 0.2
+                    },
+                    "offset": 242,
+                    "length": 141,
+                    "text": "And I try to to make a tik toc and they had the audacity to say \" serrrrr don't make us escort you off the premise\" like dawg wth did I ask. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.88,
+                        "negative": 0.11
+                    },
+                    "offset": 383,
+                    "length": 37,
+                    "text": "The only prob here if your attitude. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.05,
+                        "neutral": 0.09,
+                        "negative": 0.87
+                    },
+                    "offset": 420,
+                    "length": 59,
+                    "text": "Not my fault you have a bad job minimum wage worker pffft. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.97,
+                        "negative": 0.01
+                    },
+                    "offset": 479,
+                    "length": 31,
+                    "text": "If you stay here your the opp. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.98,
+                        "negative": 0.01
+                    },
+                    "offset": 510,
+                    "length": 34,
+                    "text": "Most of you need to start mewing. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.3,
+                        "negative": 0.68
+                    },
+                    "offset": 544,
+                    "length": 68,
+                    "text": "Then I tried to rizz up a lady and they gave me the glob darn boot. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.03,
+                        "neutral": 0.8,
+                        "negative": 0.17
+                    },
+                    "offset": 612,
+                    "length": 35,
+                    "text": "Like hotel you aint even the fart. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.19,
+                        "neutral": 0.75,
+                        "negative": 0.06
+                    },
+                    "offset": 647,
+                    "length": 31,
+                    "text": "Im the OP trust fam Im goated. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.47,
+                        "negative": 0.51
+                    },
+                    "offset": 678,
+                    "length": 45,
+                    "text": "Its giving poor their in their collapse era. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.23,
+                        "neutral": 0.74,
+                        "negative": 0.03
+                    },
+                    "offset": 723,
+                    "length": 57,
+                    "text": "Yall need to become more alpha im a sigma male trust me. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.98,
+                        "neutral": 0.01,
+                        "negative": 0
+                    },
+                    "offset": 780,
+                    "length": 57,
+                    "text": "At least the food was bussin' like top notch good stuff. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.88,
+                        "negative": 0.1
+                    },
+                    "offset": 837,
+                    "length": 24,
+                    "text": "Also the rooms were mid.",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.57,
+                                "negative": 0.43
+                            },
+                            "offset": 846,
+                            "length": 5,
+                            "text": "rooms",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/16/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "mixed",
+                            "confidenceScores": {
+                                "positive": 0.57,
+                                "negative": 0.43
+                            },
+                            "offset": 857,
+                            "length": 3,
+                            "text": "mid",
+                            "isNegated": false
+                        }
+                    ]
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}

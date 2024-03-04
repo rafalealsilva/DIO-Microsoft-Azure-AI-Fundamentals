@@ -1,0 +1,150 @@
+It was a hell experience, The staff is not at all supportive and helpful starting from the front office till service and other staff too.
+
+It was like on reception we met Anushka she was busy 8. Her own not attending and answering us .
+
+We were looking for a restaurant where a person Name MMM was passing by we just asked him him a way towards restaurant and asked him some thing he give the ridiculous replay that he from HHH Associate you can take help from reception , when we came to reception we came to know that he is doing his training. What the hell people even don't know what position they are working in .
+
+The restaurant service was also not up to mark .
+
+Terrible service , Terrible staff .
+
+
+
+{
+    "documents": [
+        {
+            "id": "id__7012",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.01,
+                "neutral": 0.08,
+                "negative": 0.91
+            },
+            "sentences": [
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.01,
+                        "negative": 0.99
+                    },
+                    "offset": 0,
+                    "length": 138,
+                    "text": "It was a hell experience, The staff is not at all supportive and helpful starting from the front office till service and other staff too.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.09,
+                        "neutral": 0.52,
+                        "negative": 0.39
+                    },
+                    "offset": 138,
+                    "length": 56,
+                    "text": "It was like on reception we met Anushka she was busy 8. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.58,
+                        "negative": 0.41
+                    },
+                    "offset": 194,
+                    "length": 41,
+                    "text": "Her own not attending and answering us .\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.13,
+                        "negative": 0.85
+                    },
+                    "offset": 235,
+                    "length": 309,
+                    "text": "We were looking for a restaurant where a person Name MMM was passing by we just asked him him a way towards restaurant and asked him some thing he give the ridiculous replay that he from HHH Associate you can take help from reception , when we came to reception we came to know that he is doing his training. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.24,
+                        "negative": 0.73
+                    },
+                    "offset": 544,
+                    "length": 73,
+                    "text": "What the hell people even don't know what position they are working in .\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.98
+                    },
+                    "offset": 617,
+                    "length": 49,
+                    "text": "The restaurant service was also not up to mark .\n",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 624,
+                            "length": 18,
+                            "text": "restaurant service",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/5/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 656,
+                            "length": 10,
+                            "text": "up to mark",
+                            "isNegated": true
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 0.99
+                    },
+                    "offset": 666,
+                    "length": 35,
+                    "text": "Terrible service , Terrible staff .",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}

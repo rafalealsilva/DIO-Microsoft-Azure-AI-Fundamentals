@@ -1,0 +1,197 @@
+My husband and I had lunch at the property after a tough day. Well, idk how to put it, the servers were least concerned about seating/water/taking order. Also when the food arrived, to my surprise, the portions were so so small. We ordered Paneer Mangodi, Rice and Aglio Olio. Except for rice which was Rs 400, each of the other dishes was Rs 1600 approx. The quantity was abysmal, and I felt we'll need to order 3 more dishes. Wow! I have stayed at several TTT properties but have never faced this. Strange!
+
+
+
+{
+    "documents": [
+        {
+            "id": "id__6532",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.26,
+                "neutral": 0.12,
+                "negative": 0.62
+            },
+            "sentences": [
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.09,
+                        "negative": 0.89
+                    },
+                    "offset": 0,
+                    "length": 62,
+                    "text": "My husband and I had lunch at the property after a tough day. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.93,
+                        "negative": 0.06
+                    },
+                    "offset": 62,
+                    "length": 92,
+                    "text": "Well, idk how to put it, the servers were least concerned about seating/water/taking order. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.05,
+                        "neutral": 0.18,
+                        "negative": 0.78
+                    },
+                    "offset": 154,
+                    "length": 75,
+                    "text": "Also when the food arrived, to my surprise, the portions were so so small. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.04,
+                                "negative": 0.96
+                            },
+                            "offset": 202,
+                            "length": 8,
+                            "text": "portions",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/2/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.04,
+                                "negative": 0.96
+                            },
+                            "offset": 222,
+                            "length": 5,
+                            "text": "small",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.96,
+                        "negative": 0.01
+                    },
+                    "offset": 229,
+                    "length": 48,
+                    "text": "We ordered Paneer Mangodi, Rice and Aglio Olio. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.91,
+                        "negative": 0.08
+                    },
+                    "offset": 277,
+                    "length": 79,
+                    "text": "Except for rice which was Rs 400, each of the other dishes was Rs 1600 approx. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.11,
+                        "negative": 0.88
+                    },
+                    "offset": 356,
+                    "length": 72,
+                    "text": "The quantity was abysmal, and I felt we'll need to order 3 more dishes. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.35,
+                                "negative": 0.65
+                            },
+                            "offset": 360,
+                            "length": 8,
+                            "text": "quantity",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/5/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.35,
+                                "negative": 0.65
+                            },
+                            "offset": 373,
+                            "length": 7,
+                            "text": "abysmal",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.93,
+                        "neutral": 0.06,
+                        "negative": 0.02
+                    },
+                    "offset": 428,
+                    "length": 5,
+                    "text": "Wow! ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.77,
+                        "negative": 0.23
+                    },
+                    "offset": 433,
+                    "length": 67,
+                    "text": "I have stayed at several TTT properties but have never faced this. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.3,
+                        "neutral": 0.14,
+                        "negative": 0.56
+                    },
+                    "offset": 500,
+                    "length": 8,
+                    "text": "Strange!",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}

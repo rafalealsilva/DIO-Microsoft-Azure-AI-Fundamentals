@@ -1,0 +1,361 @@
+Stayed 2 nights as part of a tour. Large compound provides great areas for roaming around.
+
+Pool, despite being indoors, isn’t heated and actually colder than the outdoor pool. Jacuzzi wasn’t hot enough.
+
+The international restaurant has a wide selection and the veranda cafe shared the same menu. Food overall is average. The train car restaurant Steam was great with casual appetizers, pizzas etc was much better.
+
+As expected service was impeccable throughout the hotel. Bathroom commode had strands of hair so quite disappointing.
+
+
+
+{
+    "documents": [
+        {
+            "id": "id__5404",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.59,
+                "neutral": 0.02,
+                "negative": 0.4
+            },
+            "sentences": [
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.22,
+                        "neutral": 0.74,
+                        "negative": 0.04
+                    },
+                    "offset": 0,
+                    "length": 35,
+                    "text": "Stayed 2 nights as part of a tour. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.96,
+                        "neutral": 0.04,
+                        "negative": 0
+                    },
+                    "offset": 35,
+                    "length": 56,
+                    "text": "Large compound provides great areas for roaming around.\n",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 41,
+                            "length": 8,
+                            "text": "compound",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 65,
+                            "length": 5,
+                            "text": "areas",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 35,
+                            "length": 5,
+                            "text": "Large",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 59,
+                            "length": 5,
+                            "text": "great",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.03,
+                        "neutral": 0.57,
+                        "negative": 0.41
+                    },
+                    "offset": 91,
+                    "length": 85,
+                    "text": "Pool, despite being indoors, isn’t heated and actually colder than the outdoor pool. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.34,
+                                "negative": 0.66
+                            },
+                            "offset": 92,
+                            "length": 4,
+                            "text": "Pool",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/2/assessments/0"
+                                },
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/2/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.07,
+                                "negative": 0.93
+                            },
+                            "offset": 127,
+                            "length": 6,
+                            "text": "heated",
+                            "isNegated": true
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.62,
+                                "negative": 0.38
+                            },
+                            "offset": 147,
+                            "length": 6,
+                            "text": "colder",
+                            "isNegated": true
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.02,
+                        "negative": 0.98
+                    },
+                    "offset": 176,
+                    "length": 27,
+                    "text": "Jacuzzi wasn’t hot enough.\n",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.03,
+                                "negative": 0.97
+                            },
+                            "offset": 177,
+                            "length": 7,
+                            "text": "Jacuzzi",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/3/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.03,
+                                "negative": 0.97
+                            },
+                            "offset": 192,
+                            "length": 3,
+                            "text": "hot",
+                            "isNegated": true
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.04,
+                        "neutral": 0.94,
+                        "negative": 0.01
+                    },
+                    "offset": 203,
+                    "length": 93,
+                    "text": "The international restaurant has a wide selection and the veranda cafe shared the same menu. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.03,
+                        "neutral": 0.78,
+                        "negative": 0.19
+                    },
+                    "offset": 296,
+                    "length": 25,
+                    "text": "Food overall is average. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.8,
+                                "negative": 0.2
+                            },
+                            "offset": 298,
+                            "length": 4,
+                            "text": "Food",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/5/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "mixed",
+                            "confidenceScores": {
+                                "positive": 0.8,
+                                "negative": 0.2
+                            },
+                            "offset": 314,
+                            "length": 7,
+                            "text": "average",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.99,
+                        "neutral": 0.01,
+                        "negative": 0
+                    },
+                    "offset": 321,
+                    "length": 93,
+                    "text": "The train car restaurant Steam was great with casual appetizers, pizzas etc was much better.\n",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 388,
+                            "length": 6,
+                            "text": "pizzas",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/6/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 408,
+                            "length": 6,
+                            "text": "better",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.99,
+                        "neutral": 0.01,
+                        "negative": 0
+                    },
+                    "offset": 414,
+                    "length": 57,
+                    "text": "As expected service was impeccable throughout the hotel. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 429,
+                            "length": 7,
+                            "text": "service",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/7/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 441,
+                            "length": 10,
+                            "text": "impeccable",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.99
+                    },
+                    "offset": 471,
+                    "length": 60,
+                    "text": "Bathroom commode had strands of hair so quite disappointing.",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}

@@ -1,0 +1,287 @@
+Incredible luxury hotel in amazing grounds. Massive room and terrace and very friendly staff. Should have been perfect except for two things, Firstly the hot water in the sink and bath,
+but not the shower, ran a dark brown colour on my second and third days, which stained the white flannel brown - it couldn't be rinsed out so it was probably dust/dirt. God forbid I had tried to wash a white item of clothing in the sink. Secondly, in spite of loads of staff eveywhere, it took 50 minutes to receive a morning coffee via room service and even then I had to phone and re-order. So while the hotel is spectacular, it has serious defects.
+
+
+{
+    "documents": [
+        {
+            "id": "id__5786",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.34,
+                "neutral": 0.05,
+                "negative": 0.61
+            },
+            "sentences": [
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 0,
+                    "length": 44,
+                    "text": "Incredible luxury hotel in amazing grounds. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 18,
+                            "length": 5,
+                            "text": "hotel",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/0"
+                                },
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/1"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 35,
+                            "length": 7,
+                            "text": "grounds",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/2"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 0,
+                            "length": 10,
+                            "text": "Incredible",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 11,
+                            "length": 6,
+                            "text": "luxury",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 27,
+                            "length": 7,
+                            "text": "amazing",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.99,
+                        "neutral": 0.01,
+                        "negative": 0
+                    },
+                    "offset": 44,
+                    "length": 50,
+                    "text": "Massive room and terrace and very friendly staff. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 52,
+                            "length": 4,
+                            "text": "room",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 61,
+                            "length": 7,
+                            "text": "terrace",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 87,
+                            "length": 5,
+                            "text": "staff",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 44,
+                            "length": 7,
+                            "text": "Massive",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 78,
+                            "length": 8,
+                            "text": "friendly",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.01,
+                        "negative": 0.98
+                    },
+                    "offset": 94,
+                    "length": 261,
+                    "text": "Should have been perfect except for two things, Firstly the hot water in the sink and bath, but not the shower, ran a dark brown colour on my second and third days, which stained the white flannel brown - it couldn't be rinsed out so it was probably dust/dirt. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.03,
+                        "neutral": 0.24,
+                        "negative": 0.72
+                    },
+                    "offset": 355,
+                    "length": 69,
+                    "text": "God forbid I had tried to wash a white item of clothing in the sink. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.04,
+                        "negative": 0.96
+                    },
+                    "offset": 424,
+                    "length": 155,
+                    "text": "Secondly, in spite of loads of staff eveywhere, it took 50 minutes to receive a morning coffee via room service and even then I had to phone and re-order. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.99
+                    },
+                    "offset": 579,
+                    "length": 58,
+                    "text": "So while the hotel is spectacular, it has serious defects.",
+                    "targets": [
+                        {
+                            "sentiment": "mixed",
+                            "confidenceScores": {
+                                "positive": 0.5,
+                                "negative": 0.5
+                            },
+                            "offset": 592,
+                            "length": 5,
+                            "text": "hotel",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/5/assessments/0"
+                                },
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/5/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 601,
+                            "length": 11,
+                            "text": "spectacular",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 629,
+                            "length": 7,
+                            "text": "defects",
+                            "isNegated": false
+                        }
+                    ]
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
