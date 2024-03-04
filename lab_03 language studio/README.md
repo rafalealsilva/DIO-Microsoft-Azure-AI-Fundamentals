@@ -1,7 +1,7 @@
 # Machine Learning na Prática no Azure ML
 
 ## Objetivo
-Reconhecimento Facial e transformação de imagens em Dados no Azure ML
+Reconhecimento de sentimentos expressos via texto no Azure ML
 
 
 
@@ -14,6 +14,7 @@ Reconhecimento Facial e transformação de imagens em Dados no Azure ML
 ![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/afc253b931e29f6930055924810b484ccab6cb4c/lab_03%20language%20studio/misc/Screenshot_1.jpg)
 
 - Clique no botão azul "Continue to create your resource"
+
 
 
 ### ETAPA 2: Create Language
@@ -40,43 +41,53 @@ Reconhecimento Facial e transformação de imagens em Dados no Azure ML
 
 - Checar "Status: Active"
 
-
-### ETAPA 3: Configuração Vision Studio para IMAGENS
-
-- Acessar https://portal.vision.cognitive.azure.com/ com suas credenciais
-- Clicar em "View All Resources"
-
-![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/e2963916dab99ac61058dea43b3181c0bdca56a0/lab_02%20image%20face%20ocr/misc/03.jpg)
-
-- Selecione o "Resource" criado
-- Selecione "Select as default resource"
-- Feche no X
-
-![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/e2963916dab99ac61058dea43b3181c0bdca56a0/lab_02%20image%20face%20ocr/misc/03_2.jpg)
-
-- Entre na aba "Face"
-- Selecione "Detect faces in an image"
-
-![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/e2963916dab99ac61058dea43b3181c0bdca56a0/lab_02%20image%20face%20ocr/misc/03_3.jpg)
-
-- Marque a caixa abaixo do texto "Try it out"
-- Carregue suas imagens para testar - a aplicação exemplo detecta rosto, e se há uso de máscara ou não
-
-- Segue exemplo abaixo. Repare a deteção difícil em "Face #8" (rosto de lado), corretamente identificado como "sem máscara"; e em "Face #13", marcado (creio que) incorretamente como "sem máscara".
-- Quem tiver mais exemplos, bacana compartilhar.
-
-![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/8674ed26296d9578602ae5c4e95b11271d5cb9d7/lab_02%20image%20face%20ocr/misc/03_4.jpg)
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/401adf2241b2816b2c9d502224bc38774ed393e0/lab_03%20language%20studio/misc/Screenshot_7.jpg)
 
 
 
-### ETAPA 4: Configuração Vision Studio para TEXTO
+### ETAPA 3: Analyze sentiment and opinions
 
-- O processo é bem parecido para identificar texto.
-- Volte para a página inicial
+- Acessar [https://portal.vision.cognitive.azure.com/](https://language.cognitive.azure.com/) com suas credenciais
+- Selecione as opções que você criou anteriormente
+- Resource type: language
+- Pressione "done"
 
-![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/8c93dc9e821259e8ed11e8358f42d6a1447b1aa4/lab_02%20image%20face%20ocr/misc/04.jpg)
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/9d8c2274dff9e369bc2eda62f278a579032bbc4b/lab_03%20language%20studio/misc/Screenshot_8.jpg)
 
-- Entre na aba "Optical Character Recogniton"
-- Selecione "Extract text from images"
+- Entre na aba "Classify text"
+- Selecione "Analyze sentiment and mine opinions"
 
-  ![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/8c93dc9e821259e8ed11e8358f42d6a1447b1aa4/lab_02%20image%20face%20ocr/misc/04_1.jpg)
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/9d8c2274dff9e369bc2eda62f278a579032bbc4b/lab_03%20language%20studio/misc/Screenshot_9.jpg)
+
+- Insira uma opinião positiva ou negativa sobre um produto / hotel / viagem etc. Por exemplo: https://www.tripadvisor.com.br/
+- Selecione a língua do texto usado
+- Marque a caixa logo antes do botão "Run"
+- Teste em "Run"
+- Sugestão: faça testes com as melhores e as piores opiniões, e compare o resultado da Azure com o resultado do site utilizado
+
+
+### ETAPA 4: Testes!
+
+- Para os testes a seguir, um hotel foi selecionado aleatoriamente no Tripadvisor.
+- Foram usadas 3 opiniões de 1 estrela, 3 opiniões de 2 estrelas, 3 opiniões de 3 estrelas, 3 opiniões de 4 estrelas e 3 opiniões de 5 estrelas.
+- Dentre opiniões grandes e pequenas, com e sem erro gramatical, gírias.... A Azure se saiu impressionantemente bem!
+
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/324d43a0455d00f221dc91aee9ab1f5eeb1d1e54/lab_03%20language%20studio/outputs/1%20star_01.jpg)
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/324d43a0455d00f221dc91aee9ab1f5eeb1d1e54/lab_03%20language%20studio/outputs/1%20star_02.jpg)
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/324d43a0455d00f221dc91aee9ab1f5eeb1d1e54/lab_03%20language%20studio/outputs/1%20star_03.jpg)
+
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/324d43a0455d00f221dc91aee9ab1f5eeb1d1e54/lab_03%20language%20studio/outputs/2%20stars_01.jpg)
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/324d43a0455d00f221dc91aee9ab1f5eeb1d1e54/lab_03%20language%20studio/outputs/2%20stars_02.jpg)
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/324d43a0455d00f221dc91aee9ab1f5eeb1d1e54/lab_03%20language%20studio/outputs/2%20stars_03.jpg)
+
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/324d43a0455d00f221dc91aee9ab1f5eeb1d1e54/lab_03%20language%20studio/outputs/3%20stars_01.jpg)
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/324d43a0455d00f221dc91aee9ab1f5eeb1d1e54/lab_03%20language%20studio/outputs/3%20stars_02.jpg)
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/324d43a0455d00f221dc91aee9ab1f5eeb1d1e54/lab_03%20language%20studio/outputs/3%20stars_03.jpg)
+
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/324d43a0455d00f221dc91aee9ab1f5eeb1d1e54/lab_03%20language%20studio/outputs/4%20stars_01.jpg)
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/324d43a0455d00f221dc91aee9ab1f5eeb1d1e54/lab_03%20language%20studio/outputs/4%20stars_02.jpg)
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/324d43a0455d00f221dc91aee9ab1f5eeb1d1e54/lab_03%20language%20studio/outputs/4%20stars_03.jpg)
+
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/324d43a0455d00f221dc91aee9ab1f5eeb1d1e54/lab_03%20language%20studio/outputs/5%20stars_01.jpg)
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/324d43a0455d00f221dc91aee9ab1f5eeb1d1e54/lab_03%20language%20studio/outputs/5%20stars_02.jpg)
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/324d43a0455d00f221dc91aee9ab1f5eeb1d1e54/lab_03%20language%20studio/outputs/5%20stars_03.jpg)
