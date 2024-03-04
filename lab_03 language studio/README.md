@@ -1,7 +1,7 @@
 # Machine Learning na Prática no Azure ML
 
 ## Objetivo
-Reconhecimento de sentimentos expressos via texto no Azure ML
+Reconhecimento de sentimentos e opiniões expressos via texto no Azure ML
 
 
 
