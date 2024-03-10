@@ -102,9 +102,7 @@ Em "Choose an existing connection", selecione suas conexões (criadas anteiormen
 ### ETAPA 5: Usando o Serviço
 
 - Clique em "home" >> (selecione o serviço de busca criado) >> Search Explore
-- Exemplos de buscas 
+- Exemplo de busca: search=locations:'Angeles'
 
 
-
-
-
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/675dfc5698ac73def78e83ecb035af242a1de557/lab_04%20Cognitive%20Search/misc/Screenshot_22.jpg)
