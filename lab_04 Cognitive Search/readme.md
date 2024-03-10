@@ -45,9 +45,4 @@ Neste momento, temos 2 serviços rodando:
 ![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/c77fa7ee9315a395da9282167d2a48fde4c81b18/lab_04%20Cognitive%20Search/misc/Screenshot_9.jpg)
 
 
-- Entre na Storage que você criou
-
-![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/f90ea35777e5ee4e0edec35d192501e66a8e1bc4/lab_04%20Cognitive%20Search/misc/Screenshot_10.jpg)
-
-
 
