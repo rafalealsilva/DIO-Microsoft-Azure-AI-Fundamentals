@@ -45,4 +45,66 @@ Neste momento, temos 2 serviços rodando:
 ![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/c77fa7ee9315a395da9282167d2a48fde4c81b18/lab_04%20Cognitive%20Search/misc/Screenshot_9.jpg)
 
 
+### ETAPA 3: Configuração da Conta de Armazenamento
+
+- Será necessário liberar acessos anônimos para o correto funcioanemtno desta prática
+- Esta configuração é necessária pois a opção default de segurança do armazenamento não habilita tais acessos
+
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/7fe7484674f8e3c66ee84b18e84662cbbaf7d362/lab_04%20Cognitive%20Search/misc/Screenshot_10.jpg)
+
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/7fe7484674f8e3c66ee84b18e84662cbbaf7d362/lab_04%20Cognitive%20Search/misc/Screenshot_11.jpg)
+
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/7fe7484674f8e3c66ee84b18e84662cbbaf7d362/lab_04%20Cognitive%20Search/misc/Screenshot_12.jpg)
+
+
+### ETAPA 4: Adicionando arquivos
+
+Acesse o endereço abaixo para carregar os arquivos de configuração em seu armazenamento criado
+
+![ARQUIVOS](https://aka.ms/mslearn-coffee-reviews)
+
+- Clique em "Upload" e carregue os arquivos dentro do arquivo zip baixado no link acima.
+
+- Navegue aé o serviço de Busca criado anteriormente
+
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/7f496d5f12d683b9c5ee28c146d7b1400d02c114/lab_04%20Cognitive%20Search/misc/Screenshot_13.jpg)
+
+- Clique em "Import Data"
+- Data Source: "Azure Blob Storage"
+- Dê um nome
+- Data to extract: "Content and metadata"
+- Parsing mode: Default
+- Connection string: "*Select Choose an existing connection"
+- Selecione o armazenamento criado anteriormente, e clique em "Select"
+
+- Selecione opções de acordo com imagens a seguir
+
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/f9b682114d3e34a99049a03c193d3d6944c3882d/lab_04%20Cognitive%20Search/misc/Screenshot_14.jpg)
+
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/f9b682114d3e34a99049a03c193d3d6944c3882d/lab_04%20Cognitive%20Search/misc/Screenshot_15.jpg)
+
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/f9b682114d3e34a99049a03c193d3d6944c3882d/lab_04%20Cognitive%20Search/misc/Screenshot_16.jpg)
+
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/f9b682114d3e34a99049a03c193d3d6944c3882d/lab_04%20Cognitive%20Search/misc/Screenshot_17.jpg)
+
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/f9b682114d3e34a99049a03c193d3d6944c3882d/lab_04%20Cognitive%20Search/misc/Screenshot_18.jpg)
+
+
+Em "Choose an existing connection", selecione suas conexões (criadas anteiormente)
+
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/f9b682114d3e34a99049a03c193d3d6944c3882d/lab_04%20Cognitive%20Search/misc/Screenshot_19.jpg)
+
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/f9b682114d3e34a99049a03c193d3d6944c3882d/lab_04%20Cognitive%20Search/misc/Screenshot_20.jpg)
+
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/f9b682114d3e34a99049a03c193d3d6944c3882d/lab_04%20Cognitive%20Search/misc/Screenshot_21.jpg)
+
+
+### ETAPA 5: Usando o Serviço
+
+- Clique em "home" >> (selecione o serviço de busca criado) >> Search Explore
+- Exemplos de buscas 
+
+
+
+
 
