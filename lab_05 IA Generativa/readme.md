@@ -54,4 +54,43 @@ Em resumo, as IAs não têm emoções inatas, mas podem simular respostas emocio
 #### Do you know Vitoria, a city from state of Espirito Santo, in Brazil? Can you draw a picture from Terceira Ponte (bridge located between city of Vitoria and Vila Velha) within 10 years?
 ![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/16a3bb62dc22951a6efde0a795b4269313f5b164/lab_05%20IA%20Generativa/misc/03.jpg)
 
+#### Gostaria de testar sua habilidade de programação. Crie um código bem curto em python para detectar o brilho e o contraste em uma imagem.
+*Claro! Vou criar um código Python simples para calcular o brilho e o contraste em uma imagem. Aqui está o código:*
+~~~
+import cv2
+import numpy as np
 
+def calcular_brilho(caminho_imagem):
+    # Lê a imagem em escala de cinza
+    imagem = cv2.imread(caminho_imagem, cv2.IMREAD_GRAYSCALE)
+
+    # Calcula o valor médio dos pixels (brilho)
+    brilho = np.mean(imagem)
+
+    return brilho
+
+def calcular_contraste(caminho_imagem):
+    # Lê a imagem em escala de cinza
+    imagem = cv2.imread(caminho_imagem, cv2.IMREAD_GRAYSCALE)
+
+    # Calcula o desvio padrão dos valores dos pixels (contraste)
+    contraste = np.std(imagem)
+
+    return contraste
+
+# Exemplo de uso
+caminho_imagem = "sua_imagem.jpg"
+brilho = calcular_brilho(caminho_imagem)
+contraste = calcular_contraste(caminho_imagem)
+
+print(f"Brilho: {brilho:.2f}")
+print(f"Contraste: {contraste:.2f}")
+~~~
+Lembre-se de substituir "sua_imagem.jpg" pelo caminho da imagem que você deseja analisar. O resultado será o valor médio do brilho e o desvio padrão dos valores dos pixels, que indicam o contraste da imagem.
+Se precisar de mais alguma ajuda ou tiver outras perguntas, fique à vontade para perguntar! 😊
+
+#### Mantendo a resposta curta: O que é o Azure OpenAI?
+*O Azure OpenAI é uma plataforma de serviços em nuvem oferecida pela Microsoft que permite aos desenvolvedores criar, implantar e gerenciar aplicativos e soluções de inteligência artificial. Ele inclui uma variedade de serviços, como processamento de linguagem natural, visão computacional, aprendizado de máquina e muito mais. Com o Azure OpenAI, os desenvolvedores podem aproveitar as capacidades avançadas de IA para resolver problemas complexos e criar experiências inovadoras. 💡🌐*
+
+#### Muito obrigado pelas respostas
+*De nada! Estou aqui para ajudar. Se tiver mais alguma pergunta, sinta-se à vontade para perguntar. Tenha um ótimo dia! 😊🌟*
