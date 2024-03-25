@@ -47,9 +47,11 @@ Em resumo, as IAs não têm emoções inatas, mas podem simular respostas emocio
 #### Vamos imaginar o seguinte cenário: imaginemos uma situação em que eu compre um carro com capacidade de ser pilotado por uma IA. Em uma determinada condição permitida por lei, eu coloco o carro em modo autônomo e tiro uma soneca (imaginemos que a lei permita tal situação). Enquanto estou dormindo, o veículo erroneamente ultrapassa um sinal vermelho e atropela um pedestre. Quem deve ser responsabilizado pelo atropelamento? Eu, como dono do carro? O fabricante do veículo? O presidente da empresa? O engenheiro que desenvolveu o algoritmo para identificação de sinal fechado?
 *Em caso de acidente causado por um carro autônomo, a responsabilidade geralmente recai sobre o fabricante do veículo. Isso ocorre porque a tecnologia autônoma foi criada e produzida por eles, e há um risco inerente ao seu uso. O motorista humano, no entanto, não seria penalizado, pois o carro estava sob controle da IA*
 
-####Can you draw a picture of how you imagine a public transportation in a big city within 10 years?
-![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/6c72c689b68b5c3b0c3215e24716b2667c545c09/lab_04%20Cognitive%20Search/misc/Screenshot_3.jpg)
+#### Can you draw a picture of how you imagine a public transportation in a big city within 10 years?
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/16a3bb62dc22951a6efde0a795b4269313f5b164/lab_05%20IA%20Generativa/misc/01.jpg)
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/16a3bb62dc22951a6efde0a795b4269313f5b164/lab_05%20IA%20Generativa/misc/02.jpg)
+
+#### Do you know Vitoria, a city from state of Espirito Santo, in Brazil? Can you draw a picture from Terceira Ponte (bridge located between city of Vitoria and Vila Velha) within 10 years?
+![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/16a3bb62dc22951a6efde0a795b4269313f5b164/lab_05%20IA%20Generativa/misc/03.jpg)
 
 
-####Do you know Vitoria, a city from state of Espirito Santo, in Brazil? Can you draw a picture from Terceira Ponte (bridge located between city of Vitoria and Vila Velha) within 10 years?
-![](https://github.com/rafalealsilva/DIO-Microsoft-Azure-AI-Fundamentals/blob/6c72c689b68b5c3b0c3215e24716b2667c545c09/lab_04%20Cognitive%20Search/misc/Screenshot_3.jpg)
